@@ -1,0 +1,100 @@
+h1{
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.textprop, .fontprop{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 900;
+}
+
+.textproperty{
+    padding: 10px;
+    color: peru;
+    background-color: beige;
+    text-align: justify;
+    /* text-decoration: line-through; */
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    line-height: 3; /* or can use "px" */
+    /* white-space: nowrap; */
+    /* white-space: normal; */
+    /* white-space: pre; */ 
+}
+
+.fontproperty{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em; /* "px" "em" "rem" */
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+.fontmm{
+    font-family: Myanmar Gantgaw;
+}
+
+.bor{
+    margin: 30px;
+    padding: 50px;
+    border: 12px solid #364f6b;
+    border-top-color: #fc5185;
+    border-bottom-color: #fc5c9c;
+    border-width: 12px 60px;
+}
+
+.cb{
+    border: 1px solid #9e579d;
+    margin: 30px;
+    padding: 50px;
+    width: 500px;
+    box-sizing: content-box;
+}
+
+.bb{
+    border: 1px solid #574b90;
+    margin: 30px;
+    padding: 50px;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+/* Shadow */
+.bs1{
+    width: 300px;
+    height: 150px;
+    background-color: #3f3b3b;
+    box-shadow: 10px 14px 20px 50px #575151; 
+}
+.bs2{
+    width: 300px;
+    height: 150px;
+    background-color: #21e6c1;
+    box-shadow: -10px -14px 20px  #278ea5; 
+}
+.bs3{
+    width: 300px;
+    height: 150px;
+    background-color: #ffb174;
+    box-shadow: inset 10px 14px 20px #40514e;
+}
+.ts h2{
+    font-size: 60px;
+    color: #f8c3eb;
+    text-shadow: 10px 5px 10px #cabbe9;
+    font-family: monospace;
+}
+
+/* pseudo classes */
+.pc h2:hover{
+    color: #ea7dc7;
+}
+.pc h2:active{
+    color: #caa5f1;
+}
+.pc h2:focus{
+    color: #ff5959;
+}

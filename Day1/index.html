@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="icon" href="./assets/svg/undraw_woman_ffrd.svg">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"  />
+</head>
+<body class="m-5">
+    <div class="my-5">
+        <h1>Audio</h1>
+        <audio src="./assets/A4.mp3" controls></audio> 
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Video</h1>
+        <video src="./assets/apple-watch-5.mp4" controls  muted width="300"></video> 
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Display website within a website</h1>
+        <iframe src="https://invoice-app-pos.vercel.app/" frameborder="0" width="500" height="300"></iframe>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15277.59137930805!2d96.13054093543636!3d16.80660805607774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1edbb8a89416d%3A0x64420f52367032b9!2sMMS%20IT!5e0!3m2!1sen!2smm!4v1676260019845!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mt-5"></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uETYfbrds9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="mt-5"></iframe>
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Table</h1>
+        <table>
+            <thead class="text-center">
+                <tr>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ESDP</td>
+                    <td>09986453520</td>
+                    <td>HTY</td>
+                </tr>
+                <tr>
+                    <td>ZNNH</td>
+                    <td>09986453520</td>
+                    <td>HTY</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">YMEP</td>
+                    <td>09986453520</td>
+                    <td>HTY</td>
+                </tr>
+                <tr>
+                    
+                    <td>09986453520</td>
+                    <td>HTY</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Entity & Symbols</h1>
+        <h3>&euro; &hearts; &diamond; &copy;</h3>
+        <p>
+            <i>Hello Hello</i>
+            <mark>ABC</mark>
+        </p>
+        <pre>
+            Ei
+            Sandy
+            Phyo
+        </pre>
+        <pre>
+Ei
+Sandy
+Phyo
+        </pre>
+        <code>
+            shift + tab
+        </code>
+        <kbd>Ctrl + S</kbd>
+
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Semantic Element in HTML</h1>
+        <h5 class="fontmm">div tag တွေကိုပဲ နာမည်ပြောင်းခေါ်တာ</h5>
+        <div style="width: 200px; display: inline-block;">
+            <article>aaa</article>
+            <aside>bbb</aside>
+            <details>abc</details>
+            <figcaption>haha</figcaption>
+            <figure>ccc</figure>
+            <footer>ff</footer>
+            <header>hh</header>
+            <main>mm</main>
+            <mark>Mark</mark>
+            <nav>nn</nav>
+            <section>ss</section>
+            <summary>Overall</summary>
+            <time>12:00</time>
+            <address>Hlaing Thar Yar</address>
+        </div>
+        <div style="width: 200px; display: inline-flex;">
+            <img src="./assets/semantic-element.png" width="200" alt="">
+        </div>
+    </div>
+    <hr> 
+
+    <div class="my-5">
+        <h1>Register Form </h1>
+        <form action="">
+            <div class="row">
+                <div class="col-auto">
+                    <label for="name" class="form-label">Name</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" name="name" id="" class="form-control">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-auto">
+                    <label for="email" class="form-label">Email    </label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" name="email" id="" class="form-control">
+                </div>
+            </div>
+            
+            <div class="">
+                <label  class="form-label" for="password">Password:: </label>
+                <input type="password" name="password" id="" class="form-control">
+            </div>
+            <div>
+                <label  class="form-label" for="">DoB:: </label>
+                <input type="date" name="" id="" class="form-control">
+            </div>
+            <div>
+                <label  class="form-label" for="">Color:: </label>
+                <input type="color" name="" id="" class="form-control-color">
+            </div>
+            <div>
+                <label  class="form-label" for="">File:: </label>
+                <input type="file" name="" id="" class="form-control">
+            </div>
+            <div>
+                <label  class="form-label" for="">Salary:: </label>
+                <input type="number" name="" id="" class="form-control">
+            </div>
+            <div>
+                <label  class="form-label" for="">Range:: </label>
+                <input type="range" name="" id="" class="form-range">
+            </div>
+            <div>
+                <label  class="form-label" for="">Gender:: </label>
+                <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div class="">
+                <label for="" class="form-label">Nationality</label>
+                <select name="" id="" class="form-select">
+                    <option value="mm">Myanmar</option>
+                    <option value="ch">Chinese</option>
+                    <option value="jp">Japan</option>
+                </select>
+            </div>
+            <div>
+                <label for="" class="form-label">Skill</label>
+                <div class="">
+                    <div>
+                        <input type="checkbox" name="skill" id="html">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="skill" id="css">
+                        <label for="css">CSS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="skill" id="js">
+                        <label for="js">JavaScript</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="skill" id="react">
+                        <label for="react">React</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label for="form-label">Address</label>
+                <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+            </div>
+            <button class="btn btn-info" type="button">Submit</button>
+             <input type="submit" value="Register Now" name="" id=""> 
+        </form>
+
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Read</h1>
+        <a href="https://www.w3schools.com/cssref/css_selectors.php">CSS Selector - 1</a> <br>
+        <a href="https://www.w3schools.com/css/css_selectors.asp">CSS Selector -2 </a>
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1 class="textprop">Text Property</h1>
+        <p class="textproperty">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam delectus voluptatum ad labore nam ipsam ab. Vero modi repellat amet facere quibusdam reprehenderit illo quis! Impedit magni in ipsa.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam delectus voluptatum ad labore nam ipsam ab. Vero modi repellat amet facere quibusdam reprehenderit illo quis! Impedit magni in ipsa.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam delectus voluptatum ad labore nam ipsam ab. Vero modi repellat amet facere quibusdam reprehenderit illo quis! Impedit magni in ipsa.
+        </p>
+    </div>
+    <hr> 
+
+    <div class="my-5">
+        <h1 class="fontprop">Font Property</h1>
+        <h5 class="fontmm">ကျောက်သင်ပုန်းတွေမိုးထားတဲ့အိမ်</h5>
+        <p class="fontproperty">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam delectus voluptatum ad labore nam ipsam ab. Vero modi repellat amet facere quibusdam reprehenderit illo quis! Impedit magni in ipsa.
+        </p>
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Image & Icon</h1>
+        <img src="./assets/svg/undraw_cat_8fgf.svg" alt="cat" class="img-fluid">
+        <img src="./assets/svg/undraw_dog_c7i6.svg" alt="dog" class="img-fluid"> <hr>
+        <img src="./assets/png/adopt.png" alt="dog" class="img-fluid" width="100">
+        <img src="./assets/png/creativity (1).png" alt="dog" class="img-fluid" width="100">
+        <img src="./assets/png/paw-print.png" alt="dog" class="img-fluid" width="100">
+        <img src="./assets/png/creativity.png" alt="dog" class="img-fluid" width="100">
+        <img src="./assets/png/think-different.png" alt="dog" class="img-fluid" width="100">
+        <i class="fa-solid fa-face-angry fs-1"></i>
+      
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Display Property</h1>
+        <ol>
+            <li>Inline
+                <ul>
+                    <li>width - content width</li>
+                    <li class="fontmm">ဘေးမှာလွတ် | အခြား content တက်လာ</li>
+                    <li><b> no control </b>- width </li>
+                </ul>
+            </li>
+            <li>Block
+                <ul>
+                    <li>width 100%</li>
+                    <li class="fontmm">ပိုတဲ့နေရာ သူများကို မပေးပါ</li>
+                    <li><b> control</b> - width </li>
+                </ul>
+            </li>
+            <li>Inline-block
+                <ul>
+                    <li>width - content width</li>
+                    <li class="fontmm">ဘေးမှာလွတ် | အခြား content တက်လာ</li>
+                    <li><b>control </b>- width </li>
+                </ul>
+            </li>
+            <li>Display : None</li>
+        </ol>
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Box Model</h1>
+        <p> <em> width, height, box-sizing </em></p>
+        <img src="./assets/box-model.png" alt="box-model" class="img-fluid">
+        <p class="mt-3">margin or padding: T R B L</p>
+        <p>margin or padding: TB LR</p>
+        <p>margin or padding: T RL B</p>
+
+        <p class="bor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odio quis aut. Quibusdam dolore magnam deleniti facilis cum ullam quod consequatur. Inventore repudiandae molestiae veniam nesciunt temporibus. Aliquam, fuga culpa!</p>
+
+         box sizing ဆိုတာ box အရွယ်အစားကိုသတ်မှတ်တာပါ 
+        <h3 class="cb">Box-Sizing: content-box
+            <p class="fontmm fs-6">ဆိုတာ width height အတိုင်း ယူပေးတာ</p>
+        </h3>
+        <h3 class="bb">Box-Sizing: border-box
+            <p class="fontmm fs-6">ဆိုတာ border ကနေ စတွက်တာပါ</p>
+        </h3> 
+
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Shadow</h1>
+        <img src="./assets/shadow.png" alt="shadow" width="300">
+        <ol class="mt-5">
+            <li><h4>text-shadow </h4>
+                <ul>
+                    <li>R B Blur color
+                        <div class="ts">
+                            <h2>Ei Sandy Phyo</h2>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li><h4>box-shadow </h4>
+                <ul>
+                    <li>box-shadow: h-offest v-offset blur spread color</li>
+                    <hr>
+                    <li class=" my-5"> R B Blur Spread color
+                        <div class="bs1 mt-4"></div><br>
+                    </li>
+                    <li class="my-5"> L T Blur color
+                        <div class="bs2 mt-4"></div><br>
+                    </li>
+                    <li class="my-5"> inset R B Blur color
+                        <div class="bs3 mt-2"></div>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <hr>
+
+    <div class="my-5">
+        <h1>Pseudo Classes</h1>
+        <div class="pc">
+            <h2>Min Ga Lar Par</h2>
+        </div>
+    </div>
+    <hr>
+
+</body>
+</html>
