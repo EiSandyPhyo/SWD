@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+.fontmm{
+    font-family: Myanmar Gantgaw;
+}
+.fontmmm{
+    font-family: Myanmar Text;
+    color: red;
+}
+
+/* color */
+ul .one{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+}
+ul .two{
+    width: 200px;
+    height: 50px;
+    background-color: #00cc00;
+}
+ul .three{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 0, 255);
+}
+ul .four{
+    width: 200px;
+    height: 50px;
+    background-color: hsl(310, 100%, 77%);
+}
+.img{
+    width: 300px;
+    height: 300px;
+    background-image: url("./assets/svg/undraw_woman_ffrd.svg");
+}
+ul .five{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(221, 0, 255, 0.131);
+}
+ol ul ol ul li:first-child{
+    list-style-type: disclosure-open;
+}
+
+/* အစုံသုတ် */
+.floatt h3{
+    width: 250px;
+    background-color: #fccde2;
+}
+.floatt .one{
+    float: right;
+}
+.floatt .two{
+    clear: both;
+}
+.floatt .four{
+    margin-left: auto;
+}
+.floatt .five{
+    margin: 10px auto;
+}
+.floatt .six{
+    margin-right: auto;
+}
+.floatt img{
+    float: right;
+    opacity: 0.5; /* 1->0 */
+}
+.floatt p{
+    text-align: justify;
+    padding: 30px;
+}
+
+.overflow .one{
+    width: 250px;
+    height: 300px;
+    border: 3px solid salmon;
+    margin: 20px;
+    overflow: scroll;
+    float: left;
+    margin-top: auto;
+}
+.overflow .two{
+    width: 250px;
+    height: 300px;
+    border: 3px solid purple;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.wordbreak .one{
+    width: 150px;
+    height: 100px;
+    border: 3px solid salmon;
+    margin: 30px;
+    margin-top: auto;
+    word-break: keep-all;
+}
+
+.wordbreak .two{
+    width: 150px;
+    height: 100px;
+    border: 3px solid purple;
+    margin: 30px;
+    word-break: break-all;
+}
+
+.objectfit .oneimg{
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid rebeccapurple;
+}
+
+.objectfit .twoimg{
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+    object-position: right;
+    border: 1px solid rebeccapurple;
+}
+
+.webkitscrollbar .one{
+    width: 250px;
+    height: 300px;
+    border: 3px solid salmon;
+    margin: 20px;
+    overflow-y: scroll;
+}
+.webkitscrollbar .one::-webkit-scrollbar{
+    background: gray;
+}
+.webkitscrollbar .one::-webkit-scrollbar-thumb{
+    background: #fc5185;
+    border-radius: 30px;
+}
+
+/* table */
+table{
+    width: 90%;
+    margin: 50px auto;
+    border: 2px solid #6d597a;
+    font-family: 'Raleway', sans-serif;
+    border-collapse: collapse;
+}
+#table th, #table td{
+    border: 1px solid #b56576;
+    padding: 10px 15px;
+}
+#table tr:hover{
+    background-color: #6d6875;
+    color: white;
+    cursor: pointer;
+}
+#table tr:last-child:hover{
+    background-color: white !important;
+    color: black;
+    cursor: auto !important;
+}
+#table th{
+    background-color: #6d6875;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+}
+#table td:last-child{
+    text-align: right;
+}
+#table tr:last-child{
+    text-align: center;
+}
+/* #table td:nth-child(2) */
+#table tr:nth-child(odd){
+    background-color: #ddbea9;
+}
+
+/* List */
+.list .rowul{
+    border: 2px solid #52796f; 
+    width: 300px;
+    padding-left: 0;
+    margin-left: 10px;
+
+}
+.list .rowul li{
+    list-style-type: none;
+    border: 1px solid #84a98c;
+    padding: 10px 15px;
+    margin: 10px;
+    display: block;
+}
+
+.list .colul{
+    border: 2px solid #52796f; 
+    padding-left: 0;
+    margin-left: 10px;
+}
+.list .colul li{
+    list-style-type: none;
+    border: 1px solid #84a98c;
+    padding: 10px 15px;
+    margin: 10px;
+    display: inline-block;
+}
+.list .colul li:hover, .active{
+    background-color: #84a98c;
+    color: #cad2c5;
+    cursor: pointer;
+}
+
+/* Card */
+.product{
+    width: 300px;
+    border: 1px solid black;
+    margin-left: 30px;
+    display: inline-block;
+}
+.product-image{
+    width: 100%;
+}
+.product-info{
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif; 
+}
+.product-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.product-des{
+    color: rgb(134, 134, 134);
+    font-weight: light;
+    font-size: 15px;
+}
+.star-color{
+    color: #4f772d;
+}
+
