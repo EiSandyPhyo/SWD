@@ -23,5 +23,5 @@ Shadow //
 Pseudo-classes 
 css selector // 
 user event ပေါ်မူတည်ပီး css အချိန်းအပြောင်းလုပ်မယ် // 
-:hover :active :focus //
+:hover :active :focus :invalid //
 transition //

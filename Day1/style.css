@@ -89,12 +89,23 @@ h1{
 }
 
 /* pseudo classes */
-.pc h2:hover{
+.pc h3{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    transition: background-color 2s linear 1s; 
+}
+.pc h3:hover{
     color: #ea7dc7;
+    background-color: #364f6b;
 }
-.pc h2:active{
-    color: #caa5f1;
+.pc h3:active{
+    color: yellow;
+    background-color: #575151;
 }
-.pc h2:focus{
-    color: #ff5959;
+#infocus:focus{
+    background-color: #ff5959;
+}
+#ininvalid{
+    border: 1px solid red;
 }
