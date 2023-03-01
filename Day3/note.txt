@@ -1,0 +1,5 @@
+Card
+--------
+card with plus icon //
+card with see more //
+bg - texture //

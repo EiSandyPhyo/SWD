@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'EB Garamond', serif;
+    box-sizing: border-box;
+}
+body{
+    padding: 15px;
+    background-color: rgba(245, 244, 244, 0.754);
+}
+
+.card{
+    width: 300px;
+    border: 1px solid saddlebrown;
+    border-radius:3em;
+    display: inline-block;
+    margin: 10px 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    vertical-align: top;
+    background-color: white;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.card-title{
+    font-variant-caps: petite-caps;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 0;
+}
+
+.card-paragraph{
+    /* font-variant-caps: small-caps; */
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.667);
+}
+
+.card-img{
+    width: 100%;
+    display: block;
+}
+
+.card-icon{
+    font-size: 5em;
+    margin: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+.texture{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("https://interactive-examples.mdn.mozilla.net/media/examples/lizard.png");
+    /* background-image: url("https://interactive-examples.mdn.mozilla.net/media/examples/star.png"), url("https://interactive-examples.mdn.mozilla.net/media/examples/lizard.png"); */
+
+    background-repeat: no-repeat;
+    background-position: center; /* background-position: bottom 50px right 100px; */ /* x(h),y(v) */
+    background-size: contain;
+    /* background-attachment: scroll; / fixed */
+}
+
+.card button{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-top: -20px;
+    position: relative;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.cinnamoroll{
+    overflow: visible;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.card .see-more{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: -20px;
+}
+
+
+/* form */
+.form{
+    width: auto;
+    height: 600px;
+    background-color: #845ec2c9;
+    color: #4B4453;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .login-form{
+    width: 350px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 2px solid #4B4453;
+}
+
+.login-form legend{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-input{
+    margin-bottom: 20px;
+}
+.form-input label{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-input input{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 2px solid #4B4453;
+    background: #fff4;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 2px solid #4B4453;
+    background-color: #fff4;
+    cursor: pointer;
+    color: rgb(85, 80, 80);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.register-account{
+    color: #4B4453;
+    font-size: 1.2em;
+}
