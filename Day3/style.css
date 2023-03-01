@@ -86,8 +86,14 @@ body{
 .cinnamoroll{
     overflow: visible;
     border: none;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 2px 0px;
 
+}
+.cinnamoroll:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .card .see-more{
@@ -112,6 +118,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    background-image: url(https://img.freepik.com/free-vector/cute-colorful-memphis-hand-drawn-pattern-wallpaper_53876-115682.jpg?w=1480&t=st=1677668591~exp=1677669191~hmac=c267140ab5aa2b747c31c315975c6ffb80bcbd7c2e716a61a989e424d0a9cda4);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 form .login-form{
@@ -157,4 +168,19 @@ form .login-form{
 .register-account{
     color: #4B4453;
     font-size: 1.2em;
+}
+
+.component{
+    width: 500px;
+    height: 200px;
+    background-color: #4B4453;
+    margin-top: 20px;
+    display: flex;
+}
+.first-comp, .second-comp{
+    width: 200px;
+}
+.first-comp img{
+    width: 200px;
+    height: auto;
 }
